@@ -1,0 +1,26 @@
+# KRITERIA UTAMA
+
+Kriteria 1: Data merupakan hasil scraping secara mandiri
+Anda diberi kebebasan untuk mengambil data atau scraping menggunakan bahasa pemrograman Python dari berbagai sumber, seperti platform PlayStore, X, Instagram, komentar pada penilaian barang di e-commerce, dan lain-lain. Jumlah dataset minimal yang harus diperoleh adalah 3.000 sampel. 
+
+Kriteria 2: Melakukan tahapan ekstraksi fitur dan pelabelan data
+Metode yang digunakan bebas sesuai dengan preferensi masing-masing peserta. Tahapan ini penting untuk mempersiapkan data sehingga dapat diolah lebih lanjut dalam proses pelatihan model.
+
+Kriteria 3: Menggunakan algoritma pelatihan machine learning
+Pilihan algoritma pelatihan ini haruslah sesuai dengan tujuan analisis sentimen yang ingin dicapai.
+
+Kriteria 4: Akurasi testing set yang didapatkan untuk setiap skema pelatihan minimal harus mencapai 85%
+Hal ini menunjukkan bahwa model yang dikembangkan memiliki kinerja yang baik dalam mengklasifikasikan sentimen dari data yang diberikan.
+
+Dengan memperhatikan semua kriteria ini, Anda diharapkan dapat menghasilkan model analisis sentimen yang berkualitas tinggi dan bisa dipertanggungjawabkan.
+
+
+
+
+# OPSIONAL PENILAIAN BINTANG 5
+1. Menggunakan algoritma deep learning di luar dari contoh latihan.
+2. Akurasi pada training set dan testing set di atas 92%. 
+3. Dataset memiliki minimal tiga kelas.
+[DONE] 4. Memiliki jumlah data minimal 10.000 sampel data. 
+5. Melakukan 3 percobaan skema pelatihan yang berbeda. Skema ini dapat dibedakan dari variasi algoritma pelatihan, metode ekstraksi fitur, pelabelan, dan pembagian data dengan memilih minimal 2 kombinasi.
+6. Melakukan inference atau testing dalam file .ipynb atau .py yang menghasilkan output berupa kelas kategorikal (contoh: negatif, netral, dan positif).
